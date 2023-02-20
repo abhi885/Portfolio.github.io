@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.sidebar{
+    background-color:rgb(242, 234, 234);
+    font-family: 'Jomolhari', serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 18px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 23px;
+    padding: 11px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    padding: 27px;
+
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: palevioletred; */
+    height: 50vh;
+    width: 70vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Hello{
+    font-size: 33px;
+
+}
+.name{
+    font-size: 33px;
+    font-weight: bold;
+    font-family: 'Jomolhari', serif;
+
+}
+.about{
+    font-size: 28px;
+
+}
+.moreabout{
+    font-size: 20px;
+    margin-top: 10PX;
+
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn{
+    padding: 5px 9px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(81, 81, 245);
+    font-weight: bold;
+    font-size:14px ;
+    margin: 0 5px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    color: white;
+    background-color: blueviolet;
+}
+.devPic img{
+    height: 50vh;
+    width: 30vw;
+}
+
+.contactform{
+    font-family: 'Jomolhari', serif;
+    padding: 20px 25px;
+}
+
+.contactform h1{
+    font-family: 'Jomolhari', serif;
+    
+}
+
+.contactform form div{
+    padding: 2px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 323px;
+    border-radius: 9px;
+    margin: 0 21px;
+    padding: 6px;
+}
+
+
+#emailHelp{
+    font-size: 10px;
+    color: rgba(226, 43, 150, 0.877);
+    margin: 0px 5px;
+}
+
+.form-check-input{
+    width: 12px;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-check-label{
+    padding: 0 0 0 26px;
+    
+}
+
+.blogitem{
+    margin: 10px;
+    font-family:'Jomolhari', serif;
+}
+
+.blogcontainer h1{
+    font-family:'Jomolhari', serif;
+    margin: 14px;
+}
+
+.intro h2{
+    font-family:'Jomolhari', serif;
+    margin: 0 8px;
+}
+.intro p{
+    font-family:'Jomolhari', serif;
+    margin: 0 8px;
+}
+
+.skillcontainer{
+    padding: 8px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family:'Jomolhari', serif;
+}
+
+.skill{
+    height: 5px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred{
+    width: 200px;
+    background-color: blue;
+}
+
+.fifty{
+    width: 100px;
+    background-color: orange;
+}
+
+.t5{
+    width: 50px;
+    background-color: palevioletred;
+}
+
+.sidebarGo{
+    transform: translate(-300px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 5px;
+}
+
+.cross{
+    margin-left: 140px;
+    margin-top: 7px;
+}
+
+@media screen and (max-width:800px) {
+    
+    
+}
